@@ -1,5 +1,6 @@
 <template>
   <div id="nav">
+    <h2>Test app</h2>
     <el-form v-if="!loginState" :model="loginForm" :inline="true">
       <el-form-item label="Email address" size="medium">
         <el-input v-model="loginForm.username"></el-input>
